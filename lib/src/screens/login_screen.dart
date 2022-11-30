@@ -4,8 +4,9 @@ import 'package:flutter/material.dart';
 import 'package:industry_mobile/src/constants/image_strings.dart';
 import 'package:industry_mobile/src/constants/sizes.dart';
 import 'package:industry_mobile/src/constants/text_strings.dart';
-
-import '../../../../constants/colors.dart';
+import 'package:get/get.dart';
+import 'package:industry_mobile/src/screens/dashboard.dart';
+import '../constants/colors.dart';
 
 class LoginScreen extends StatelessWidget {
   const LoginScreen({Key? key}) : super(key: key);
@@ -83,7 +84,7 @@ class LoginScreen extends StatelessWidget {
                         SizedBox(
                           width: double.infinity,
                           child: ElevatedButton(
-                            onPressed: () {},
+                            onPressed: (() => Get.to(() => const Dashboard())),
                             style:OutlinedButton.styleFrom(
                               elevation: 0,
                               shape: RoundedRectangleBorder(

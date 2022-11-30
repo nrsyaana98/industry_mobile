@@ -1,8 +1,8 @@
 // ignore_for_file: prefer_const_constructors
 
 import 'package:flutter/material.dart';
-import 'package:industry_mobile/src/features/authentication/screens/welcome/welcome_screen.dart';
 import 'package:get/get.dart';
+import 'package:industry_mobile/src/screens/welcome_screen.dart';
 
 
 void main() {

@@ -2,10 +2,10 @@
 
 import 'package:flutter/material.dart';
 import 'package:industry_mobile/src/constants/sizes.dart';
-import 'package:industry_mobile/src/features/authentication/screens/login/login_screen.dart';
-import '../../../../constants/colors.dart';
-import '../../../../constants/image_strings.dart';
-import '../../../../constants/text_strings.dart';
+import 'package:industry_mobile/src/screens/login_screen.dart';
+import '../constants/colors.dart';
+import '../constants/image_strings.dart';
+import '../constants/text_strings.dart';
 import 'package:get/get.dart';
 class WelcomeScreen extends StatelessWidget {
   const WelcomeScreen({Key? key}) : super(key: key);
